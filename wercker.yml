@@ -30,12 +30,12 @@ build:
         config: config.toml
         flags: --buildDrafts=true
         prod_branches: master
-        
+
 deploy:
   steps:
     - install-packages:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        domain: http://ambulo.github.io/hugo-wercker
+        domain: ambulo.github.io/hugo-wercker
         basedir: public
