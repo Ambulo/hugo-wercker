@@ -1,3 +1,3 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "http://ambulo.github.io/hugo-wercker/"
 title = "My New Hugo Site"
 languageCode = "en-us"
